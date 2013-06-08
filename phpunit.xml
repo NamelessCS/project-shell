@@ -7,11 +7,11 @@
          convertNoticesToExceptions="true"
          convertWarningsToExceptions="true"
          processIsolation="false"
-         stopOnFailure="false"
+         stopOnFailure="true"
          syntaxCheck="false"
 >
     <testsuites>
-        <testsuite name="Application Test Suite">
+        <testsuite name="All Tests">
             <directory>./app/tests/</directory>
         </testsuite>
     </testsuites>
